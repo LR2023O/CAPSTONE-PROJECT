@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
-
-
 typedef struct
 {
     int id;
@@ -107,7 +104,7 @@ void displayBuses(Bus buses[], int num_buses)
         printf("Total Seats: %d\n", *&buses[i].total_seats);
         printf("Available Seats: %d\n", *&buses[i].available_seats);
         printf("\n");
-        printf("---------------------------------------------------\n");
+        printf("==================================================================================================================\n");
     }
 }
 
@@ -210,7 +207,7 @@ void displayBookings(Booking bookings[], int num_bookings)
         printf("Employee ID: %d\n", bookings[i].employee_id);
         printf("Number of Seats: %d\n", bookings[i].num_seats);
         printf("\n");
-    printf("-------------------------------------------------------------------------\n");
+    printf("==========================================================================\n");
     }
 }
 
@@ -344,6 +341,7 @@ void displayMenu() {
     printf("   7. Book specific seat\n");
     printf("   8. Exit\n");
     printf("\n");
+    printf("===========================================================================\n");
     printf("      Select an option:");
 }
 
