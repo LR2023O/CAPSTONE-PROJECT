@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
 char ch[10][130]={"Kisii,Busia","Kampala,Kisumu","Kisumu,Nairobi","Kisumu,Mombasa","Nakuru,Nairobi","Nairobi,Mombasa"};
 char name[32][100]={'\0'};
 char number[32][2]={'\0'};
