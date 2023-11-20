@@ -1,1 +1,37 @@
 #bbc&m.c(My Capstone Project Using C)
+This codde begins with the header files which iclude:(a).the standard C libraries
+                                                     (b).string manipulation
+
+Global Variables: Arrays are used to store information about bus routes , passenger names , seat numbers , and other related information.
+
+Function Declarations: Several functions are declared to perform specific tasks, such as displaying the bus list , handling user login, booking tickets , displaying the status of seats (status), and others.
+
+Login Function: The login function is used to authenticate users. It prompts the user to enter a username and password. If the entered credentials match predefined values, the user is considered authenticated.
+
+Menu-Driven Interface (main function): The main function represents the main menu of the program. It uses a do-while loop to repeatedly display a menu and execute the chosen option until the user chooses to exit.
+Menu options include viewing bus routes, booking tickets, canceling bookings, checking the status of seats, and exiting the program.
+
+Bus Function (bus): Displays a list of available bus routes.
+Booking Function (booking): (a).Handles the process of booking bus tickets.
+                            (b).Reads the current available seats from a file, allows the user to choose a bus, prompts for the number of tickets to book, and updates the available seats.
+Name-Number Function (name_number): Takes care of storing passenger names and corresponding booking numbers in files.
+
+Read-Number and Read-Name Functions (read_number and read_name):Retrieve booking numbers and passenger names from files, respectively.
+
+Status Functions (status and status_1):Display the status of booked and available seats based on user input.
+                                       status_1 is used during the booking process to display the current status.
+
+Cancel Function (cancle):Allows users to cancel booked tickets, updates the status, and returns a hypothetical booking amount.
+
+File Operations:The program uses file operations (fopen, fclose, fgets, fputs, fprintf, etc.) to read and write data related to seat availability, passenger names, and booking numbers.
+
+User Interface: -The program interacts with users through a console-based menu system.
+                -The getch function is used to wait for a keypress before continuing, providing a pause in the program execution.
+
+Exit Message:When the user chooses to exit, a closing message is displayed.
+Clearing the Screen (system("cls")):The program uses system to clear the console screen, providing a cleaner user interface.
+
+
+
+
+
