@@ -28,8 +28,9 @@ File Operations:The program uses file operations (fopen, fclose, fgets, fputs, f
 User Interface: -The program interacts with users through a console-based menu system.
                 -The getch function is used to wait for a keypress before continuing, providing a pause in the program execution.
 
-Exit Message:When the user chooses to exit, a closing message is displayed.
-Clearing the Screen (system("cls")):The program uses system to clear the console screen, providing a cleaner user interface.
+Exit Message: When the user chooses to exit, a closing message is displayed. 
+
+Clearing the Screen (system("cls")): The program uses system to clear the console screen, providing a cleaner user interface.
 
 
 
